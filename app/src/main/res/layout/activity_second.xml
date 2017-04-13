@@ -4,7 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#0000ff"
+    android:orientation="vertical"
     tools:context="kr.hs.emirim.dodo1305.activitytest.SecondActivity">
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#ffffff"/>
 
     <Button
         android:id="@+id/but_second"
